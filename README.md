@@ -1,1 +1,1 @@
-# Init
+# WorldSkills tests
