@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpeedRun</string>
+    <string name="querry">%s.%s</string>
+</resources>

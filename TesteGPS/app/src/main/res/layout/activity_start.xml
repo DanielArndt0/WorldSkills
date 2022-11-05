@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Start">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@android:color/holo_green_dark"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white"
+        app:title=""/>
+    
+    
+    <fragment
+        android:id="@+id/gmap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="100dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/initBut"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:text="Iniciar"
+        app:cornerRadius="500dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        />
+
+</LinearLayout>
